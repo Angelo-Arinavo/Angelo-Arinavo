@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.codedgo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CodeDGo"
+        tools:targetApi="31">
+        <activity
+            android:name=".easyMode10"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode9"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode8"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode7"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode6"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode5"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode4"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode3"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode10"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode9"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode8"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode7"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode6"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode5"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode4"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode3"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode2"
+            android:exported="false" />
+        <activity
+            android:name=".hardMode"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode2"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard2"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboards"
+            android:exported="false" />
+        <activity
+            android:name=".easyMode"
+            android:exported="false" />
+        <activity
+            android:name=".modeSelection"
+            android:exported="false" />
+        <activity
+            android:name=".userAccount"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".reset_pass"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
