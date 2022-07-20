@@ -27,7 +27,7 @@ In HARD mode the player has 15 seconds time limit to complete the task and every
 <br>
 The leaderboard will display the top 10 players only in every mode.
 # Demo Video
-Click the link to watch 
+Click the link to watch https://youtu.be/mw02x9vsygo 
 # Course
 BS Infromation Technology
 # Subject
